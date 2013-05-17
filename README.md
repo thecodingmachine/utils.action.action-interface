@@ -8,15 +8,15 @@ The action performed is completely up to the implementer (sending a mail, storin
 This is a very simple and very powerful system.
 
 ```php
-namespace Mouf\Utils\Value;
+namespace Mouf\Utils\Action;
 
-interface ValueInterface {
+interface ActionInterface {
 	/**
-	 * Returns the value represented by this object.
+	 * Executes the action the object has been designed for.
 	 * 
-	 * @return mixed
+	 * @throws \Exception
 	 */
-	public function val();
+	public function run();
 }
 ```
 

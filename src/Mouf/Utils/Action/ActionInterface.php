@@ -1,5 +1,5 @@
 <?php 
-namespace Mouf\Utils\Value;
+namespace Mouf\Utils\Action;
 
 /**
  * This interface is implemented by any object that represent an action that can be triggered.
